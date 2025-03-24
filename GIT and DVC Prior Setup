@@ -1,0 +1,9 @@
+Salut les amis,
+
+Compte tenu de la logique et du scénario envisagé dans la réalisation de ce project, Il y a des préalables à faire :
+- Les données en *.VSC seront Uploaded utilisant dvc vers un cloud storage, pour le cas j'ai utilisé mon Google Bucket (dont la clès JSON apparait dans le dossier du projet)
+  Il faut donc un dvc init sur le dossier data qui contient un dataset que j'ai extrait de scikit-learn.
+  Quand l'utilisateur selectionne un dataset *.csv et l'upload, la fonction dvc_add_and_push() dans app.py le push vers le backet (Google cloud storage) en attente du traitement.
+  Dès que vous selection le model de ML à utiliser; et la colonne target, et train, la fonction dvc_pull() pull la dataset et lance le training avec la fonction train().
+
+Voilà donc l'importance de dvc sur le dossier Data. Et Data peut être sous git_ignore pour la bonne pratique.
