@@ -1,0 +1,17 @@
+ml_web_portal/
+    ├── app.py          # Flask application
+    ├── models.py       # ML model definitions
+    ├── forms.py        # WTForms for handling file uploads and model selection
+    ├── templates/      # HTML templates
+    │   ├── base.html
+    │   ├── index.html
+    │   ├── train.html
+    │   ├── results.html
+    │   └── ...
+    ├── static/         # CSS, JavaScript files
+    │   ├── style.css
+    │   ├── script.js
+    │   └── ...
+    ├── data/           # (Optional) For storing uploaded data (DVC will handle this better)
+    ├── models/         # (Optional) For storing trained models (DVC will handle this better)
+    └── requirements.txt # Python dependencies

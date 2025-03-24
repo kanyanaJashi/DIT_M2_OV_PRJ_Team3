@@ -1,0 +1,8 @@
+Flask
+scikit-learn
+pandas
+WTForms
+joblib # For saving/loading models
+dvc # (If you're running DVC commands programmatically)
+Flask-WTF
+dvc-gs 
