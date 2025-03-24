@@ -5,10 +5,10 @@
     <div class="index-content">
         <img src="{{ url_for('static', filename='images/ml_banner.jpg') }}" alt="Machine Learning Banner" class="ml-banner">
 
-        <h1>Machine Learning Portal</h1>
-        <p>Bienvenue sur notre portail de formation en apprentissage automatique.</p>
-        <p>Ce portail fonctionne avec des jeux de données CSV injectés.</p>
-        <p>Le portail n'effectue pas la préparation des données pour produire des données propres ; les fichiers CSV injectés sont donc censés être des données propres.</p>
+        <h1 style="color: blue;">Machine Learning Portal</h1>
+        <p style="color: black;">Bienvenue sur notre portail de formation en apprentissage automatique.</p>
+        <p style="color: black;">Ce portail fonctionne avec des jeux de données CSV injectés.</p>
+        <p style="color: black;">Le portail n'effectue pas la préparation des données pour produire des données propres ; les fichiers CSV injectés sont donc censés être des données propres.</p>
 
         <form method="POST" enctype="multipart/form-data" id="upload-form">
             {{ form.hidden_tag() }}
