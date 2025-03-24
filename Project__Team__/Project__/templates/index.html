@@ -12,7 +12,7 @@
 
         <form method="POST" enctype="multipart/form-data" id="upload-form">
             {{ form.hidden_tag() }}
-            <p>
+            <p style="color: black;">
                 {{ form.data_file.label }}<br>
                 {{ form.data_file(size=32) }}<br>
                 {% for error in form.data_file.errors %}
