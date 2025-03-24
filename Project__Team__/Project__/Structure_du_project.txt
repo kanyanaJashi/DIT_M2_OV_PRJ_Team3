@@ -11,7 +11,8 @@ ml_web_portal/
     ├── static/         # CSS, JavaScript files
     │   ├── style.css
     │   ├── script.js
-    │   └── ...
+    │   └── images
+    |             └── ml_banner.jpg 
     ├── data/           # (Optional) For storing uploaded data (DVC will handle this better)
     ├── models/         # (Optional) For storing trained models (DVC will handle this better)
     └── requirements.txt # Python dependencies
